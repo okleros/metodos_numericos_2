@@ -1,4 +1,4 @@
 all:
-	cc -o main main.c -lm -O3
+	cc -o main main.c -lm
 run:
-	cc -o main main.c -lm -O3 && ./main
+	cc -o main main.c -lm && ./main
